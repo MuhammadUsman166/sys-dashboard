@@ -7,6 +7,7 @@ interface Props {
   percentColor: string;
 }
 
+
 const Card = ({ title, value, color, img, percent, percentColor,  }: Props) => (
   <div className={`p-6 rounded-xl shadow-lg ${color} relative`}>
     <div className="w-12 h-12 ">
@@ -18,5 +19,6 @@ const Card = ({ title, value, color, img, percent, percentColor,  }: Props) => (
     <p className={`text-sm font-medium ${percentColor} mt-1`}>{percent}</p>
   </div>
 );
+
 
 export default Card;

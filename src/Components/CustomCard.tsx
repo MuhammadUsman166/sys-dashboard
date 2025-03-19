@@ -5,6 +5,7 @@ interface Pros {
     children: ReactNode
 }
 
+
 const CustomCard = ({ title, children }: Pros) => {
     return (
       <div className="bg-white rounded-2xl p-5 h-full">
@@ -13,5 +14,6 @@ const CustomCard = ({ title, children }: Pros) => {
       </div>
     );
 };
+
 
 export default CustomCard

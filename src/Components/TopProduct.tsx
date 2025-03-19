@@ -31,6 +31,8 @@ const TopProducts = () => {
       bgColor: "#FFD5A4",
     },
   ];
+
+
   return (
     <CustomCard title="Top Products">
       <table className="w-full text-left">
@@ -42,6 +44,7 @@ const TopProducts = () => {
             <th>Sales</th>
           </tr>
         </thead>
+        
         <tbody>
           {products.map((p) => (
             <tr key={p.id} className="border-t text-gray-700">

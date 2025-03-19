@@ -1,6 +1,8 @@
 import { PieChart, BarChart, ShoppingCart, Package, LineChart, LogOut, Settings } from "lucide-react";
 import logo from "../assets/logo.png";
 import GetPro from "../assets/get-pro.png";
+
+
 const Sidebar = () => {
   return (
     <div className="fixed top-0 left-0 h-full w-64 p-4 bg-white">

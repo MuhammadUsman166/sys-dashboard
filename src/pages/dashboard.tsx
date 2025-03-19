@@ -1,14 +1,4 @@
-import {
-  Bar,
-  BarChart,
-  Legend,
-  Line,
-  LineChart,
-  ResponsiveContainer,
-  Tooltip,
-  XAxis,
-  YAxis,
-} from "recharts";
+import { Bar, BarChart, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis} from "recharts";
 import Card from "../Components/Card";
 import Navbar from "../Components/Navbar";
 import Sidebar from "../Components/Sidebar";
@@ -49,6 +39,8 @@ const Dashboard = () => {
     { month: "Apr", lastMonth: 2900, thisMonth: 4600 },
     { month: "May", lastMonth: 3100, thisMonth: 4800 },
   ];
+
+  
   return (
     <>
       <div className="">
@@ -56,8 +48,6 @@ const Dashboard = () => {
         <div className="ml-64 bg-[#FAFBFC]">
           <Navbar />
           <div className="p-6">
-            {/* <div className="grid grid-cols-4 gap-4 mb-4"></div> */}
-
             <div className="grid grid-cols-3 gap-4">
               <div className="bg-white p-4  rounded-lg col-span-2">
                 <div className="flex  items-center justify-between">

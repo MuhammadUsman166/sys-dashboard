@@ -1,11 +1,4 @@
-import {
-  Bar,
-  BarChart,
-  ResponsiveContainer,
-  Tooltip,
-  XAxis,
-  YAxis,
-} from "recharts";
+import { Bar, BarChart, ResponsiveContainer, Tooltip, XAxis, YAxis,} from "recharts";
 import CustomCard from "./CustomCard";
 
 const VolumnChart = () => {
@@ -16,6 +9,7 @@ const VolumnChart = () => {
     { name: "D", volume: 870, service: 420 },
     { name: "E", volume: 760, service: 310 },
   ];
+
   return (
     <>
       <CustomCard title="Volume vs Service Level">
